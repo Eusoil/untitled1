@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?> <!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xju.mapper.XinxiMapper">
+    <insert id="InsertInfo" parameterType="xju.pojo.Xinxi">
+        insert into xx (nickname,qq,email,text)
+        values (#{nickname},#{qq},#{email},#{text})
+    </insert>
+    <select id="SelectAll" resultType="xju.pojo.Xinxi">
+        select * from xx
+    </select>
+</mapper>
