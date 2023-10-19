@@ -9,4 +9,5 @@
     <select id="SelectAll" resultType="xju.pojo.Xinxi">
         select * from xx
     </select>
+    <select id=""></select>
 </mapper>
